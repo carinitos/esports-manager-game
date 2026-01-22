@@ -4,6 +4,7 @@ abstract class Match {
     val teams: Seq[Team]
     val games: Seq[Game]
     val bestOf: Int
+    val score: Map[Team, Int]
 }
 
 abstract class Game {

@@ -6,6 +6,8 @@ abstract class Weapon {
     val damageVsNoArmor: Double
     val headshotMultiplier: Double
     val cost: Int
+    val armorPenetration: Double
+    val magazineSize: Int
 }
 
 trait tSideWeapon 
